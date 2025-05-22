@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -18,6 +19,8 @@ import java.util.List;
 public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.PlayerModelViewHolder> {
     private Context context;
     private List<PlayerModel> playerList;
+
+
 
     public PlayerAdapter(Context context, List<PlayerModel> playerList) {
         this.context = context;
