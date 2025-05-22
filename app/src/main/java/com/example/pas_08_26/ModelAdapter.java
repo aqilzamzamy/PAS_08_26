@@ -49,7 +49,7 @@ public class ModelAdapter extends RecyclerView.Adapter<ModelAdapter.ModelViewHol
         return teamList.size();
     }
 
-    public class ModelViewHolder extends RecyclerView.ViewHolder {
+    public static class ModelViewHolder extends RecyclerView.ViewHolder {
 
         TextView tvTeamName, tvStadium;
         ImageView ivImage;

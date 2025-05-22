@@ -57,4 +57,6 @@ public class PremiereFragment extends Fragment {
             }
         });
     }
+
+
 }

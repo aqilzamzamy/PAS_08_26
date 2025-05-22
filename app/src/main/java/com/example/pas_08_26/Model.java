@@ -5,11 +5,16 @@ public class Model {
     private String strStadium;
     private String strBadge;
 
-    public Model(String strTeam, String strStadium, String strBadge){
+
+
+    public Model(String strTeam, String strStadium, String strBadge,String strCutout,  String strPlayer, String strNumber){
         this.strTeam=strTeam;
         this.strStadium=strStadium;
         this.strBadge=strBadge;
+
     }
+
+
 
     public  String getStrTeam(){
         return  strTeam;
@@ -22,4 +27,6 @@ public class Model {
     public String getStrBadge() {
         return strBadge;
     }
+
+
 }
