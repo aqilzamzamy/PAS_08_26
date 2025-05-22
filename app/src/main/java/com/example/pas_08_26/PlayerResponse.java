@@ -4,9 +4,9 @@ import java.util.List;
 
 public class PlayerResponse {
 
-    private List<PlayerModel> players;
+    private List<PlayerModel> player;
 
-    public List<PlayerModel> getPlayers() {
-        return players;
+    public List<PlayerModel> getPlayer() {
+        return player;
     }
 }
