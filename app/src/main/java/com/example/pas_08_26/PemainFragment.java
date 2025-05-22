@@ -40,7 +40,7 @@ public class PemainFragment extends Fragment {
 
     private void loadTeamsFromApi() {
         SportApi api = ApiClient.getClient().create(SportApi.class);
-        Call<PlayerResponse> call = api.getPlayer("English Premier League");
+        Call<PlayerResponse> call = api.getPlayer("133604");
 
         call.enqueue(new Callback<PlayerResponse>() {
             @Override

@@ -9,5 +9,5 @@ public interface SportApi {
     Call<ModelResponse> getTeams(@Query("l") String league);
 
     @GET ("lookup_all_players.php")
-    Call<PlayerResponse> getPlayer(@Query("l") String league);
+    Call<PlayerResponse> getPlayer(@Query("id") String player);
 }
