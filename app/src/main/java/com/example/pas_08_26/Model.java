@@ -9,6 +9,8 @@ public class Model {
         this.strTeam=strTeam;
         this.strStadium=strStadium;
         this.strBadge=strBadge;
+
+
     }
 
     public  String getStrTeam(){
