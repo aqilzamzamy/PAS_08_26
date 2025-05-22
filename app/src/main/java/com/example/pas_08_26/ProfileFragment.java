@@ -10,12 +10,12 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class ProfileFragment extends Fragment {
-    TextView tvProfile;
+//    TextView tvProfile;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
-        tvProfile = view.findViewById(R.id.tvProfile);
+//        tvProfile = view.findViewById(R.id.tvProfile);
 
         return view;
     }
